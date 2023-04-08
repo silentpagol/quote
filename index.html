@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body
+        {
+            background-color: royalblue;
+        }
+        
+        a
+        {
+            text-decoration: none;
+            color: white;
+        }
+        div
+        {
+            height: 350px;
+            width: 350px;
+            color: white;
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: fantasy,cursive;
+            text-shadow: 2px 3px 2px royalblue;
+            background-image: linear-gradient(to right,cyan,mediumpurple,tomato);
+            
+            text-align: center;
+            vertical-align: center;
+            line-height: 250px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+            margin-top: 200px;
+            animation:test 2s infinite ease-in-out;
+            
+        }
+        
+        @keyframes test
+        {
+            0%{
+            box-shadow: 2px 2px 15px white;
+            border-width: 8px 0px 0px 0px;
+            border-style: solid;
+            border-color: gold;
+            }
+            50%
+            {
+               box-shadow: 2px 2px 15px black;
+               border-width: 0px 8px 0px 0px;
+               border-style: solid;
+               border-color: gold;
+            }
+            75% {
+                box-shadow: 2px 2px 15px teal;
+                border-width: 0px 0px 8px 0px;
+                border-style: solid;
+                border-color: gold;
+            }
+            
+            100% {
+                box-shadow: 2px 2px 15px tomato;
+                border-width: 0px 0px 0px 8px;
+                border-style: solid;
+                border-color: gold;
+            }
+            
+        }
+    </style>
+    <title>Bangla Quats</title>
+</head>
+
+<body>
+<div>
+<a href="/login_form/router.html">
+<p>Welcome to Bangali Quote's</p>
+</a>
+</div>
+</body>
+
+</html>
